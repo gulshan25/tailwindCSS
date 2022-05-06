@@ -5,9 +5,36 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+    <title>Biznet</title>
 </head>
 
-<body></body>
+<body class="bg-blue-700">
+    <div class="container">
+        <!-- Button Component -->
+        <button class="bg-blue-500 hover:bg-blue-400 text-white font-bold py-2 px-4 rounded">
+        Find Friends
+      </button>
+        <button class="btn btn-blue hover:bg-blue-400">Find Groups</button>
+
+        <!-- alert Component -->
+        <div class="bg-red-100 border border-red-400 text-red-700 px-4 py-3 rounded relative my-5" role="alert">
+            <strong class="font-bold">Alert</strong>
+            <span class="block sm:inline">Please update your password</span>
+        </div>
+    </div>
+    <!-- card Component -->
+    <div class="max-w-sm max-auto flex p-6 bg-white rounded-lg shadow-xl">
+        <div class="flex-shrink-0">
+            <img src="img/download.jpg" alt="" class="h-12 w-12" />
+        </div>
+        <div class="ml-6 pt-1">
+            <h4 class="text-xl text-gray-900">Traversy Media</h4>
+            <p class="text-base text-gray-600">you have a new message</p>
+        </div>
+    </div>
+    <!-- card columns -->
+</body>
 
 </html>

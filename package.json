@@ -1,23 +1,23 @@
 {
-  "name": "tailwind-css",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/gulshan25/tailwindCSS.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/gulshan25/tailwindCSS/issues"
-  },
-  "homepage": "https://github.com/gulshan25/tailwindCSS#readme",
-  "dependencies": {
-    "tailwindcss": "^3.0.24"
-  }
+    "name": "tailwind-css",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "build.css": "tailwind build src/style.css -o dist/style.css"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/gulshan25/tailwindCSS.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/gulshan25/tailwindCSS/issues"
+    },
+    "homepage": "https://github.com/gulshan25/tailwindCSS#readme",
+    "dependencies": {
+        "tailwindcss": "^3.0.24"
+    }
 }
